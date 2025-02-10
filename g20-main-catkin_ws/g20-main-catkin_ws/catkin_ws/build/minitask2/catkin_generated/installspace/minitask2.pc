@@ -1,0 +1,8 @@
+prefix=/home/jaber/catkin_ws/install
+
+Name: minitask2
+Description: Description of minitask2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

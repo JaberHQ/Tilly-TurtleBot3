@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="minitask5" type="behavior.py" name="move_base_seq" output="screen">
+        <rosparam param="p_seq">[0.77,-3.34,0,3.1,-1,0,4.0,1.8,0,0.0,3.4,0]</rosparam>   
+        <rosparam param="yea_seq">[0,0.7,0.7,-0.7]</rosparam>
+        <rosparam param="IRL">False</rosparam>
+
+  </node>
+
+</launch>
